@@ -252,6 +252,7 @@ a {
   transition: 0.25s;
 }
 .work-item:hover {
+  /* khi hover vao thi bord chuyen mau va nang len */
   border-color: #2e80ce;
   transform: translateY(-16px);
 }
@@ -270,10 +271,56 @@ a {
   line-height: 1.75; /* 175% */
 }
 .work-item__mode {
+  /* a o dang block nen khong margin dc */
   margin-top: 18px;
   display: inline-block;
   color: #2e80ce;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.75; /* 175% */
+}
+/* ==============About================ */
+.about {
+  /* 206 la bu cho phan absolute */
+  padding: 85px 0 206px;
+  margin-top: 85px;
+  background: #fff;
+}
+.about-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-media {
+  width: 495px;
+}
+.about__img {
+  position: relative;
+}
+.about__img--big {
+  display: flex;
+  width: 512px;
+  height: 370px;
+  border-radius: 6px;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.07);
+  object-fit: cover;
+}
+.about__img--small {
+  position: absolute;
+  top: 121px;
+  left: 238px;
+  width: 332px;
+  height: 370px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.about-content {
+  width: 40%;
+}
+.about-content__desc {
+  width: 468px;
+  margin-top: 18px;
+}
+.about-content__btn {
+  margin-top: 38px;
 }
