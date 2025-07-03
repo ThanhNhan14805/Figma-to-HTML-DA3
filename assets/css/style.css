@@ -541,3 +541,30 @@ a {
 .blog-item__more:hover {
   color: #2e80ce;
 }
+/* ==============appointment================ */
+.appointment {
+  /* su dung margin-top vi da do mau background */
+  margin-top: 85px 0;
+}
+.appointment__inner {
+  padding: 100px 178px;
+  text-align: center;
+  background: #f6fbff;
+}
+.appointment__heading::after {
+  margin: 18px auto 0;
+  /* tao phan tu gia dinh */
+  content: "";
+  /* tao khoi cho ptu gia dinh */
+  display: block;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+}
+.appointment__desc {
+  margin: 18px auto 0;
+  max-width: 617px;
+}
+.appointment__btn {
+  margin-top: 38px;
+}
